@@ -34,8 +34,27 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-compose
+  - jekyll-spaceship
 
-markdown: GFM # 这是typora用的markdown编辑器。如果不配置，jekyll会默认用kramdown编辑器
+markdown: kramdown
+  # - math_engine: mathjax
+# markdown: GFM # 这是typora用的markdown编辑器。如果不配置，jekyll会默认用kramdown编辑器
+
+## => Language and Timezone
+##############################
+lang: zh # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
+timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+
+## => Markdown Enhancements
+##############################
+## Mathjax
+mathjax: true # false (default), true
+mathjax_autoNumber: true # false (default), true
+
+## Mermaid
+mermaid: true # false (default), true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

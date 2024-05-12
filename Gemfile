@@ -37,3 +37,7 @@ gem "webrick", "~> 1.8"
 
 # 添加jekyll-compose插件，从而可以在命令行用bundle exec jekyll post "My New Post"来创建新文章
 gem 'jekyll-compose', group: [:jekyll_plugins]
+
+# 安装jekyll-spaceship插件
+# jekyll-spaceship - 🚀 A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, youtube, vimeo, dailymotion, etc.
+gem 'jekyll-spaceship', group: :jekyll_plugins
