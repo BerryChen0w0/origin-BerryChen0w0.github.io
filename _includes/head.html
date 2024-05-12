@@ -1,0 +1,18 @@
+<!-- 来自minima模板，因为要修改它，所以复制一份过来 -->
+<!-- C:\Ruby32-x64\lib\ruby\gems\3.2.0\gems\minima-2.5.1\_includes -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+
+  <!-- 让html支持MathJax v3（支持Latex语法的数学公式实现） -->
+  <!-- 参考：https://www.jianshu.com/p/aa359b3aef0c -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>

@@ -35,7 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-markdown: gfm # 这是typora用的markdown编辑器。如果不配置，jekyll会默认用kramdown编辑器
+markdown: GFM # 这是typora用的markdown编辑器。如果不配置，jekyll会默认用kramdown编辑器
 
 # Exclude from processing.
 # The following items will not be processed, by default.
